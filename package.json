@@ -9,6 +9,12 @@
     "prepublish": "yarn build"
   },
   "devDependencies": {
+    "@types/uuid": "^8.3.1",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "date-fns": "^2.23.0",
+    "uuid": "^8.3.2"
   }
 }
