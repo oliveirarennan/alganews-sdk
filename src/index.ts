@@ -11,6 +11,8 @@ export  {default as CashFlowService} from './services/CashFlow.service'
 export {default as generateQueryString} from './utils/generateQueryString'
 export {default as getEditorDescription} from './utils/getEditorDescription'
 
+export * from './@types'
+
 export default {
   services,
   utils
